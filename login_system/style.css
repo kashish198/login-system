@@ -1,0 +1,114 @@
+/* 🌸 Girlish-Themed Login System CSS 🌸 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #ffd1e3, #ffb3c6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🌷 Form Container */
+.form-container {
+    background: #fff;
+    width: 360px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.3);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in;
+}
+
+/* 🩷 Header */
+h2 {
+    color: #ff4d88;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* 💌 Input Fields */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ffcce0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+    background-color: #fff8fb;
+}
+
+input:focus {
+    border-color: #ff66a3;
+    box-shadow: 0 0 8px rgba(255, 102, 163, 0.5);
+}
+
+/* 🎀 Buttons */
+button {
+    background: linear-gradient(135deg, #ff66a3, #ff4da6);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff3385, #ff1a75);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 51, 133, 0.4);
+}
+
+/* 💖 Links */
+a {
+    color: #ff4d88;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 🌼 Messages */
+.error {
+    color: #e63946;
+    background: #ffe0e6;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.success {
+    color: #2e8b57;
+    background: #e0ffe8;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* 🌸 Dashboard Page */
+.dashboard {
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.3);
+    width: 400px;
+}
+
+.dashboard a {
+    margin: 0 10px;
+    color: #ff4d88;
+    font-weight: 500;
+}
+
+/* 🌷 Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
